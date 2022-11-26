@@ -6,6 +6,7 @@ import MyForm from './components/MyForm';
 import AddEventListeners from './components/AddEventListeners'
 import ShouldComponentUpdate from './components/ShouldComponentUpdate'
 import TernaryExpression from './components/TernaryExpression'
+import RenderToString from './components/RenderToString'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,8 @@ root.render(
     {/* <MyForm /> */}
     {/* <AddEventListeners /> */}
     {/* <ShouldComponentUpdate /> */}
-    <TernaryExpression />
+    <RenderToString />
+    
   </React.StrictMode>
 );
 
